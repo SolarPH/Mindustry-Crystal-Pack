@@ -1,0 +1,50 @@
+name: Crystal Press
+description: Used to crush and mix 7 different types of crystals.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			crystal-ruby/7
+			crystal-amber/7
+			crystal-topaz/7
+			crystal-emerald/7
+			crystal-diamond/7
+			crystal-amethyst/7
+			crystal-alexandrite/7
+		]
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+outputItem: crushed-crystals/1
+
+craftTime: 80
+craftEffect: none
+updateEffect: smoke
+updateEffectChance: 0.1
+
+// Block Properties
+size: 4
+hasPower: true
+hasLiquid: false
+hasItems: true
+category: crafting
+requirements: [
+	copper/24
+	lead/24
+	graphite/48
+	silicon/48
+	metaglass/48
+	titanium/48
+	thorium/48
+	hardened-obsidian/72
+]
+
+liquidCapacity: 120
+
+research: crystal-separator

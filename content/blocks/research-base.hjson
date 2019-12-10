@@ -1,0 +1,11 @@
+name: "Base Research: Crystal Pack"
+description: For a special campaign map.
+
+type: ItemVoid
+
+requirements: [
+	
+]
+
+research: core-shard
+buildVisibility: lightingOnly

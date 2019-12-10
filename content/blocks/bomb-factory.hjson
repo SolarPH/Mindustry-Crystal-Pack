@@ -1,0 +1,45 @@
+name: Bomb Factory
+description: Craft heavy-duty bombs.
+
+type: GenericSmelter
+flameColor: FFF800
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			blast-compound/14
+			bomb-shell-empty/2
+			crushed-crystals/1
+		]
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+outputItem: bomb-shell-filled/1
+
+craftTime: 80
+craftEffect: none
+updateEffect: generate
+updateEffectChance: 0.1
+
+// Block Properties
+size: 2
+hasPower: true
+hasLiquid: false
+hasItems: true
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	silicon/24
+	titanium/32
+	thorium/32
+	hardened-obsidian/32
+]
+
+itemCapacity: 28
+
+research: crystal-press

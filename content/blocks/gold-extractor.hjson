@@ -1,0 +1,44 @@
+name: Gold Extractor
+description: Extracts gold from ore residue.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			
+		]
+	}
+	liquid: {
+		liquid: ore-residue
+		amount: 1
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+outputItem: gold/1
+
+craftTime: 80
+craftEffect: none
+updateEffect: smoke
+updateEffectChance: 0.1
+
+// Block Properties
+size: 1
+hasPower: true
+hasLiquid: true
+hasItems: false
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	graphite/12
+	metaglass/12
+]
+
+liquidCapacity: 160
+
+research: crystal-separator

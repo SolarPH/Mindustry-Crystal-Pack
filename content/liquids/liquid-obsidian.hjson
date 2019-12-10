@@ -1,0 +1,12 @@
+name: Liquid Obsidian
+description: Obsidian bits mixed in water.
+
+// item properties
+
+color: 646464
+type: liquids
+barColor: 646464
+lightColor: 646464
+flammability: 0
+hardness: 0
+explosiveness: 0

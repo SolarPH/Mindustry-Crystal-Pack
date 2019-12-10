@@ -1,0 +1,12 @@
+name: Ore Polisher
+description: Liquid used for ore polishing
+
+// item properties
+
+color: 605A29
+type: liquids
+barColor: 605A29
+lightColor: 605A29
+flammability: 0
+hardness: 0
+explosiveness: 0

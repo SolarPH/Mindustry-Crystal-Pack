@@ -1,0 +1,13 @@
+name: "[#A670DB]Amethyst Crystal[]"
+description: A polished crystal. Can be powderized.
+
+// item properties
+
+color: A670DB
+type: resource
+explosiveness: 0
+flammability: 0
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

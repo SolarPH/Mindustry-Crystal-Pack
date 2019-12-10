@@ -1,0 +1,39 @@
+name: Ore Polisher Mixer
+description: Mixes sand and water, creating a liquid for polishing crystal ores.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			sand/10
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 5
+	}
+}
+outputLiquid: ore-polisher/30
+
+craftTime: 10
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0
+
+// Block Properties
+size: 1
+hasPower: false
+hasLiquid: true
+hasItems: true
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	metaglass/24
+]
+
+liquidCapacity: 800
+
+research: mixer

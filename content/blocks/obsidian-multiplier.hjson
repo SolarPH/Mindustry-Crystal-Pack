@@ -1,0 +1,40 @@
+name: Obsidian Clone Machine
+description: Clones obsidian using high amounts of power.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+
+consumes: {
+	items: {
+		items: [
+			hardened-obsidian/1
+		]
+	}
+	power: {
+		usage: 83.333333333
+		capacity: 50000
+	}
+}
+
+outputItem: hardened-obsidian/2
+
+craftTime: 0
+craftEffect: none
+updateEffect: teleport
+updateEffectChance: 0.1
+
+// Block Properties
+size: 1
+hasPower: true
+hasLiquid: false
+hasItems: true
+category: crafting
+
+requirements: [
+	hardened-obsidian/10
+]
+
+research: crystal-turret
+
+itemCapacity: 2
