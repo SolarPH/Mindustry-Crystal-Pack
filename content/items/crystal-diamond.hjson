@@ -1,0 +1,13 @@
+name: "[#709BDB]Diamond Crystal[]"
+description: A polished Crystal. Can be powderized.
+
+// item properties
+
+color: 709BDB
+type: resource
+explosiveness: 0
+flammability: 0
+radioactitity: 0
+hardness: 0
+cost: 1
+alwaysUnlocked: false

@@ -1,0 +1,12 @@
+name: Crushed Crystals
+description: Crystals that has been crushed and mixed together. Used as ingredient for a powerful ammo.
+
+// item properties
+
+color: FFFFFF
+type: resource
+barColor: FFFFFF
+lightColor: FFFFFF
+flammability: 0
+hardness: 0
+explosiveness: 0

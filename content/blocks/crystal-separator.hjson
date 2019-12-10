@@ -1,0 +1,54 @@
+name: Crystal Separator
+description: A separator made to separate crystals from liquid obsidian.
+
+type: Separator
+
+// Separator properties
+craftTime: 60
+spinnerRadius: 8
+spinnerLength: 1
+spinnerThickness: 2
+spinnerSpeed: 10
+color: F0F0F0
+
+results: [
+	ore-amethyst/2
+	ore-alexandrite/2
+	ore-emerald/2
+	ore-topaz/2
+	ore-diamond/2
+	ore-amber/2
+	ore-ruby/2
+]
+
+consumes: {
+	items: {
+		items: [
+			
+		]
+	}
+	liquid: {
+		liquid: liquid-obsidian
+		amount: 0.5
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+
+hasPower: true
+
+size: 3
+requirements: [
+	copper/12
+	lead/12
+	graphite/24
+	metaglass/24
+	titanium/24
+]
+category: crafting
+
+liquidCapacity: 60
+
+research: mixer

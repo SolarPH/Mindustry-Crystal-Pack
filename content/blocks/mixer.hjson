@@ -1,0 +1,44 @@
+name: Mixer
+description: Mixes hardened obsidian bits with water for the crystal separator.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			hardened-obsidian/2
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 5
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+outputLiquid: liquid-obsidian/30
+
+craftTime: 80
+craftEffect: none
+updateEffect: smoke
+updateEffectChance: 0.1
+
+// Block Properties
+size: 1
+hasPower: true
+hasLiquid: true
+hasItems: true
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	metaglass/24
+	titanium/24
+]
+
+liquidCapacity: 800
+
+research: cooler

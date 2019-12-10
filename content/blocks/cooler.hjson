@@ -1,0 +1,46 @@
+name: Cooler
+description: Cools magma blocks with cryofluid to create hardened obsidian.
+
+type: GenericSmelter
+flameColor: 00E7FF
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			magma-block/1
+		]
+	}
+	liquid: {
+		liquid: cryofluid
+		amount: 1
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+outputItem: hardened-obsidian/1
+
+craftTime: 80
+craftEffect: none
+updateEffect: steam
+updateEffectChance: 0.1
+
+// Block Properties
+size: 2
+hasPower: true
+hasLiquid: true
+hasItems: true
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	graphite/24
+	silicon/24
+	metaglass/36
+]
+
+liquidCapacity: 160
+
+research: solidifier

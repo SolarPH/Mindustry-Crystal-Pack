@@ -1,0 +1,13 @@
+name: "[#DCB800]Mega Bullet[]"
+description: A superweapon ammo. Highly Explosive
+
+// item properties
+
+color: DCB800
+type: resource
+explosiveness: 100
+flammability: 100
+radioactitity: 100
+hardness: 0
+cost: 1
+alwaysUnlocked: false

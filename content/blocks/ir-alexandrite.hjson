@@ -1,0 +1,31 @@
+name: Item Registration Alexandrite(Core Database)
+description: Register items specified for this block. One-time use for campaign mode when items won't get registered in Core Database after being an output from Separators.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			ore-alexandrite/1
+		]
+	}
+}
+outputItem: ore-alexandrite/1
+
+craftTime: 0
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.1
+
+// Block Properties
+size: 1
+hasPower: false
+hasLiquid: false
+hasItems: false
+category: crafting
+requirements: [
+	copper/0
+]
+
+research: ir-amethyst

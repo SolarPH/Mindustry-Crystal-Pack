@@ -1,0 +1,12 @@
+name: Ore Residue
+description: Residue collected from crystal ores. May contain gold.
+
+// item properties
+
+color: 383838
+type: liquids
+barColor: 383838
+lightColor: 383838
+flammability: 0
+hardness: 0
+explosiveness: 0

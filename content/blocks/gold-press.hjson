@@ -1,0 +1,38 @@
+name: Gold Press
+description: Turns gold into heavy-duty bomb shells.
+
+type: GenericCrafter
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			gold/4
+		]
+	}
+	power: {
+		usage: 2
+		capacity: 10
+	}
+}
+outputItem: bomb-shell-empty/1
+
+craftTime: 80
+craftEffect: none
+updateEffect: smoke
+updateEffectChance: 0.1
+
+// Block Properties
+size: 1
+hasPower: true
+hasLiquid: false
+hasItems: true
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	graphite/12
+	metaglass/12
+]
+
+research: gold-extractor

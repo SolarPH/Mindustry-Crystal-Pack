@@ -1,0 +1,12 @@
+name: Gold
+description: Bling!
+
+// item properties
+
+color: D7A900
+type: resource
+barColor: D7A900
+lightColor: D7A900
+flammability: 0
+hardness: 0
+explosiveness: 0

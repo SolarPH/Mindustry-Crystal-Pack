@@ -1,0 +1,50 @@
+name: "[#709BDB]Crystal Extractor (Diamond)[]"
+description: Extract crystals from ores.
+
+type: GenericSmelter
+flameColor: 709BDB
+
+// GenericCrafter Properties
+consumes: {
+	items: {
+		items: [
+			ore-diamond/2
+		]
+	}
+	liquid: {
+		liquid: ore-polisher
+		amount: .5
+	}
+	power: {
+		usage: 10
+		capacity: 25
+	}
+}
+outputItem: crystal-diamond/1
+
+outputLiquid: ore-residue/30
+
+craftTime: 80
+craftEffect: none
+updateEffect: bubble
+updateEffectChance: 0.1
+
+// Block Properties
+size: 2
+hasPower: true
+hasLiquid: true
+hasItems: true
+category: crafting
+requirements: [
+	copper/12
+	lead/12
+	graphite/24
+	silicon/24
+	metaglass/24
+	titanium/24
+	hardened-obsidian/36
+]
+
+liquidCapacity: 120
+
+research: crystal-separator

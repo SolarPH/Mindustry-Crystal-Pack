@@ -1,0 +1,329 @@
+name: Crystal Turret
+description: Mindustry Superweapon. Uses Mega Bullet as ammo.
+
+type: ItemTurret
+
+maxAmmo: 5
+
+ammo: {
+	bomb-shell-filled: {
+		type: MissileBulletType
+		damage: 100000
+		lifetime: 300
+		speed: 0.5
+		splashDamageRadius: 200
+		splashDamage: 5000
+		frontColor: FFFFFF
+		backColor: FFFFFF
+		homingPower: 100
+		homingRange: 10000
+		ammoMultiplier: 5
+		
+		bulletWidth: 50
+		bulletHeight: 50
+		bulletSprite: crystal-pack-circle-shell
+		bulletShrink: 0
+		
+		incendAmount: 100
+		incendSpread: 20
+		incendChance: 100
+		
+		hitEffect: spawnShockwave
+		despawnEffect: spawnShockwave
+		
+		// Frag Bullet Stage 1
+		fragBullets: 70
+		fragVelocityMin: 1
+		fragVelocityMax: 1
+		fragBullet: {
+			type: MissileBulletType
+			damage: 400
+			lifetime: 180
+			speed: 2
+			splashDamageRadius: 0
+			splashDamage: 0
+			frontColor: DB7077
+			backColor: DB7077
+			homingPower: 0
+			homingRange: 0
+			
+			bulletWidth: 14
+			bulletHeight: 14
+			bulletSprite: missile
+			bulletShrink: 0
+			
+			// Frag Bullet Stage 2
+			fragBullets: 1
+			fragBullet: {
+				type: MissileBulletType
+				damage: 400
+				lifetime: 180
+				speed: 4
+				splashDamage: 0
+				splashDamageRadius: 0
+				frontColor: DBBE70
+				backColor: DBBE70
+				homingPower: 10000
+				homingRange: 10000
+				
+				bulletWidth: 12
+				bulletHeight: 12
+				bulletSprite: missile
+				bulletShrink: 0
+				
+				// Frag Bullet Stage 3
+				fragBullets: 1
+				fragBullet: {
+					type: MissileBulletType
+					damage: 400
+					lifetime: 180
+					speed: 6
+					splashDamage: 0
+					splashDamageRadius: 0
+					frontColor: D7DB70
+					backColor: D7DB70
+					homingPower: 10000
+					homingRange: 10000
+					
+					bulletWidth: 10
+					bulletHeight: 10
+					bulletSprite: missile
+					bulletShrink: 0
+					
+					// Frag Bullet Stage 4
+					fragBullets: 1
+					fragBullet: {
+						type: MissileBulletType
+						damage: 400
+						lifetime: 180
+						speed: 8
+						splashDamage: 0
+						splashDamageRadius: 0
+						frontColor: 99DB70
+						backColor: 99DB70
+						homingPower: 10000
+						homingRange: 10000
+						
+						bulletWidth: 8
+						bulletHeight: 8
+						bulletSprite: missile
+						bulletShrink: 0
+						
+						// Frag Bullet Stage 5
+						fragBullets: 1
+						fragBullet: {
+							type: MissileBulletType
+							damage: 400
+							lifetime: 180
+							speed: 10
+							splashDamage: 0
+							splashDamageRadius: 0
+							frontColor: 709BDB
+							backColor: 709BDB
+							homingPower: 10000
+							homingRange: 10000
+							
+							bulletWidth: 6
+							bulletHeight: 6
+							bulletSprite: missile
+							bulletShrink: 0
+							
+							// Frag Bullet Stage 6
+							fragBullets: 1
+							fragBullet: {
+								type: MissileBulletType
+								damage: 400
+								lifetime: 180
+								speed: 12
+								splashDamage: 0
+								splashDamageRadius: 0
+								frontColor: A670DB
+								backColor: A670DB
+								homingPower: 10000
+								homingRange: 10000
+								
+								bulletWidth: 4
+								bulletHeight: 4
+								bulletSprite: missile
+								bulletShrink: 0
+								
+								// Frag Bullet Stage 7 (Last Stage)
+								fragBullets: 1
+								fragBullet: {
+									type: MissileBulletType
+									damage: 400
+									lifetime: 180
+									speed: 14
+									splashDamage: 0
+									splashDamageRadius: 0
+									frontColor: DA70DB
+									backColor: DA70DB
+									homingPower: 10000
+									homingRange: 10000
+									
+									bulletWidth: 2
+									bulletHeight: 2
+									bulletSprite: missile
+									bulletShrink: 0
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	crystal-ruby: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamageRadius: 0
+		splashDamage: 0
+		frontColor: DB7077
+		backColor: DB7077
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 14
+		bulletHeight: 14
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+	
+	crystal-amber: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamage: 0
+		splashDamageRadius: 0
+		frontColor: DBBE70
+		backColor: DBBE70
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 12
+		bulletHeight: 12
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+	
+	crystal-topaz: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamage: 0
+		splashDamageRadius: 0
+		frontColor: D7DB70
+		backColor: D7DB70
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 10
+		bulletHeight: 10
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+	
+	crystal-emerald: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamage: 0
+		splashDamageRadius: 0
+		frontColor: 99DB70
+		backColor: 99DB70
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 10
+		bulletHeight: 10
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+	
+	crystal-diamond: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamage: 0
+		splashDamageRadius: 0
+		frontColor: 709BDB
+		backColor: 709BDB
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 10
+		bulletHeight: 10
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+	
+	crystal-amethyst: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamage: 0
+		splashDamageRadius: 0
+		frontColor: A670DB
+		backColor: A670DB
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 10
+		bulletHeight: 10
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+	
+	crystal-alexandrite: {
+		type: MissileBulletType
+		damage: 400
+		lifetime: 180
+		speed: 7
+		splashDamage: 0
+		splashDamageRadius: 0
+		frontColor: DA70DB
+		backColor: DA70DB
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 10
+		bulletHeight: 10
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+}
+
+shootEffect: teleportActivate
+range: 1000
+reload: 180
+inaccuracy: 0
+shots: 1
+recoil: 0.5
+rotatespeed: 1
+rotate: true
+targetAir: true
+targetGround: true
+
+health: 200
+baseExplosiveness: 100
+size: 3
+requirements: [
+	copper/12
+	lead/12
+	graphite/24
+	silicon/24
+	metaglass/24
+	titanium/24
+	hardened-obsidian/36
+]
+category: turret
+
+research: crystal-press
