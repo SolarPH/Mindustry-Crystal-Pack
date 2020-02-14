@@ -308,7 +308,6 @@ inaccuracy: 0
 shots: 1
 recoil: 0.5
 rotatespeed: 1
-rotate: true
 targetAir: true
 targetGround: true
 
