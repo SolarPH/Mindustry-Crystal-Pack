@@ -1,0 +1,12 @@
+name: "[#FF0000]BLOCKER"
+description: "[#FF0000]ACCESS DENIED"
+
+// item properties
+
+color: FF0000
+type: material
+barColor: FF0000
+lightColor: FF0000
+flammability: 0
+hardness: 0
+explosiveness: 0

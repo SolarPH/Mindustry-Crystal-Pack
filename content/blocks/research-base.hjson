@@ -7,5 +7,6 @@ requirements: [
 	
 ]
 
-research: core-shard
+research: void-tile-out
 buildVisibility: lightingOnly
+alwaysUnlocked: true

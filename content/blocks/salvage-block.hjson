@@ -1,0 +1,25 @@
+name: Salvage Block
+description: collects items straight to the core.
+
+type: CoreBlock
+itemCapacity: 0
+
+destructible: false
+targetable: false
+solid: false
+solidifies: false
+
+requirements: [
+	copper/4500
+	lead/4000
+	metaglass/4000
+	graphite/4000
+	titanium/4000
+	thorium/4000
+	silicon/4000
+	plastanium/4000
+	phase-fabric/4000
+	surge-alloy/4000
+]
+category: effect
+research: core-shard

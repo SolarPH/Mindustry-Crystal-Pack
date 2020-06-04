@@ -1,0 +1,11 @@
+name: " "
+description: " "
+
+type: ItemVoid
+
+requirements: [
+	blocker/1
+]
+
+research: void-tile-block
+buildVisibility: lightingOnly
