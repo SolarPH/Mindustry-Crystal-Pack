@@ -4,6 +4,6 @@
 	"author": "SolarPH",
 	"description": "A mod that contains an OP yet super expensive weapon.",
 	"version": "1.1.4",
-	"dependencies": []
+	"dependencies": [],
 	minGameVersion: 105
 }
